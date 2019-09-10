@@ -303,6 +303,7 @@ small{
     }
     .menu__content {
         width: 48%;
+        margin: 8px 0;
     }
     .about {
         width: 100%;
