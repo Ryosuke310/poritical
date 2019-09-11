@@ -160,6 +160,14 @@ table td{
 .speakers__content > img{
     width: 100%;
 }
+.speakers-title{
+    width: 30%;
+    margin: -17.5% 0 17.5% 0;
+    padding: 5px 5%;
+    font-size: 1.4rem;
+    background: #1F2528;
+    color: #fff;
+}
 .speakers__content-bg{
     padding: 100px 5% 50px;
     background-size: 100%;
@@ -337,6 +345,14 @@ small{
         background: url("./image/speaker-inner_sp.png");
         background-repeat: no-repeat;
         background-size: 100%;
+    }
+    .speakers-title{
+        width: 40%;
+        margin: -21% 0 21% 0;
+        padding: 5px 5%;
+        font-size: 1.2rem;
+        background: #1F2528;
+        color: #fff;
     }
     .speakers__content-bg {
         padding: 50px 5% 30px;
