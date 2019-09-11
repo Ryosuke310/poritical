@@ -187,6 +187,7 @@ table td{
     letter-spacing: 0.4rem;
 }
 .speakers__content-box{
+    height: 700px;
     background: url("./image/speaker-inner.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -332,9 +333,46 @@ small{
     .footer__inner {
         padding: 0 5%;
     }
+    .speakers__content-box_sp{
+        height: 800px;
+        background: url("./image/speaker-inner_sp.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .speakers__content-bg {
+        padding: 50px 5% 30px;
+    }
     .speakers__content-box-top-box > h3 {
+        margin: 5px 0 10px 0;
         text-align: center;
         font-size: 1.2rem;
         letter-spacing: 0.1rem;
     }
+    .speakers__content-box-top{
+        flex-wrap:wrap-reverse;
+    }
+    .speakers__content-box-top-img {
+        width: 100%;
+    }
+    .speakers__content-box-top-box {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .title {
+        width: 90%;
+        margin: 0 0 20px 0;
+    }
+    .u-r {
+        width: 100%;
+    }
 }
+
+@media screen and (max-width: 374px) {
+    .speakers__content-box_sp{
+        height: 850px;
+        background: url("./image/speaker-inner_sps.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
