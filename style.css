@@ -73,7 +73,7 @@ a{
     background: #A42528;
     border-radius: 20px;
 }
-.topoffer__content-button > p{
+.topoffer__content-button > a{
     color: #fff;
 }
 .menu{
@@ -254,7 +254,7 @@ table td{
     background: #A42528;
     border-radius: 20px;
 }
-.tickets__content-button > p{
+.tickets__content-button > a{
     color: #fff;
 }
 .map{
